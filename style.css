@@ -1,0 +1,193 @@
+/*Desktop/ Laptop */
+@media screen and (min-width : 1220px) {
+
+/*GENERAL CSS*/
+ body{
+        margin: 0;
+        padding: 0;
+        background-color: whitesmoke;
+    }
+
+    h1{
+        font-size: xx-large;
+        font-weight: lighter;
+        font-family: Gadugi;
+        color: rgb(62, 62, 62);
+    }
+
+    h2{
+       font-size: x-large;
+        font-weight: lighter;
+        font-family: Gadugi;
+        color: rgb(65, 65, 65); 
+    }
+
+    h3{
+        font-size: medium;
+        font-weight: lighter;
+        font-family: Gadugi;
+        color: rgb(68, 68, 68);
+    }
+
+    .header{
+        width: 100%;
+        height: 10%;
+        text-align: center;
+    }
+
+    .mainCont{
+        width: 100%;
+        height: 100%;
+        margin: 0 2%;
+    }
+
+    .img-circle {
+        border-radius: 50%;
+        vertical-align: top;
+        display: inline-block;
+    }
+
+    /*splash css*/
+    #showcaseContainer{
+        background-color: rgba(255, 255, 255, 0.9);
+        border: 2px grey solid;
+        border-radius: 30px;
+        width: 50%;
+        padding: 8% 8% 8% 8%;
+        margin: 3% 0 0 25%;
+        text-align: center;
+        }
+
+    #showcaseContainer button[type="submit"]{
+        width: 100%;
+        background-color: grey;
+    }
+
+    button a{
+        color: lightgrey;
+    }
+
+    button a:hover {
+        color: white;
+        text-decoration: none;
+    }
+   
+   /*projects css*/
+
+   #projectCont{
+        width: 80%;
+        border: 2px grey solid;
+        border-radius: 30px;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: 1% 3% 3% 8%;
+   }
+   
+   #projectCont h2{
+    text-align: center;
+   }
+
+   .tile {
+        width: 25%;
+        height: 250px;
+        margin: 5% 12.25% 5% 12.25%;
+        border: 2px grey solid;
+        border-radius: 5px;
+        display: inline-block;
+        position: relative;
+   }
+
+   .tile img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+   }
+
+   .tile p{
+       position: absolute;
+       top: 10%;
+       left: 0; 
+       width: 100%; 
+   }
+
+   p span { 
+       color: white; 
+       font: bold 24px/45px Helvetica, Sans-Serif; 
+       letter-spacing: -1px;  
+       background: rgb(0, 0, 0); /* fallback color */
+       background: rgba(0, 0, 0, 0.7);
+       padding: 10px; 
+}
+
+   /*info css*/
+   #infotop{
+        margin: 2%;
+        width: 95%;
+        height: 15%;
+        background-color: rgba(72, 72, 72, 0.3);
+        border: 2px solid grey;
+   }
+   .txtinline{
+        width: 70%;
+        margin: 0;
+        padding: 2%;
+        display: inline-block;
+   }
+
+   #infotop .img-circle{
+        margin: 5% 1% 5% 5%;
+        
+   }
+
+   #infomiddle{
+        margin: 2%;
+        width: 95%;
+        background-color: rgba(72, 72, 72, 0.9);
+        border: 2px solid lightgrey;
+        padding: 1%;
+        text-align: center;
+   }
+
+   #infomiddle h1{
+        text-align: center;
+        color: white;
+   }
+
+   #infomiddle a{
+        color: white;
+        margin: 0 8% 0 8%;
+        font-family: Gadugi;
+        font-size: large;
+   }
+
+    #infomiddle a:hover{
+        text-decoration: none;
+        color: lightgrey;
+    }
+
+    #infobottom{
+        margin: 2%;
+        width: 95%;
+        background-color: rgba(72, 72, 72, 0.3);
+        border: 2px solid grey;
+        padding: 1%;
+       
+    }
+
+    #infobottom h2{
+        text-align: center;
+        padding: 0 5%;
+    }
+
+     #infobottom a{
+        color: rgb(65, 65, 65);
+     }
+
+    #infobottom a:hover{
+        text-decoration: none;
+        color: white;
+    }
+
+    #infobottom .txtinline{
+        margin: 0 12.5%;
+    }
+}
