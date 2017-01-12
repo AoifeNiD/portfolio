@@ -1,32 +1,35 @@
 /*Desktop/ Laptop */
-@media screen and (min-width : 1220px) {
+@media screen and (min-width : 1200px) {
 
 /*GENERAL CSS*/
  body{
         margin: 0;
         padding: 0;
         background-color: whitesmoke;
+        background-image: url("starsspace.jpg");
+        width: 100%;
+        height: 100%;
     }
 
     h1{
         font-size: xx-large;
         font-weight: lighter;
         font-family: Gadugi;
-        color: rgb(62, 62, 62);
+        color: rgb(240, 240, 240);
     }
 
     h2{
        font-size: x-large;
         font-weight: lighter;
         font-family: Gadugi;
-        color: rgb(65, 65, 65); 
+        color: rgb(62, 62, 62); 
     }
 
     h3{
         font-size: medium;
         font-weight: lighter;
         font-family: Gadugi;
-        color: rgb(68, 68, 68);
+        color: rgb(240, 240, 240);
     }
 
     .header{
@@ -36,7 +39,7 @@
     }
 
     .mainCont{
-        width: 100%;
+        width: 97%;
         height: 100%;
         margin: 0 2%;
     }
@@ -53,8 +56,8 @@
         border: 2px grey solid;
         border-radius: 30px;
         width: 50%;
-        padding: 8% 8% 8% 8%;
-        margin: 3% 0 0 25%;
+        padding: 6% 6% 6% 6%;
+        margin: 10% 0 0 25%;
         text-align: center;
         }
 
@@ -81,7 +84,7 @@
         background-color: rgba(255, 255, 255, 0.8);
         margin: 1% 3% 3% 8%;
    }
-   
+
    #projectCont h2{
     text-align: center;
    }
@@ -118,12 +121,13 @@
        padding: 10px; 
 }
 
+
    /*info css*/
    #infotop{
         margin: 2%;
         width: 95%;
         height: 15%;
-        background-color: rgba(72, 72, 72, 0.3);
+        background-color: rgba(72, 72, 72, 0.7);
         border: 2px solid grey;
    }
    .txtinline{
@@ -167,19 +171,19 @@
     #infobottom{
         margin: 2%;
         width: 95%;
-        background-color: rgba(72, 72, 72, 0.3);
+        background-color: rgba(72, 72, 72, 0.7);
         border: 2px solid grey;
         padding: 1%;
        
     }
 
-    #infobottom h2{
+    #infobottom h1{
         text-align: center;
         padding: 0 5%;
     }
 
      #infobottom a{
-        color: rgb(65, 65, 65);
+        color: rgb(205, 205, 205);
      }
 
     #infobottom a:hover{
